@@ -1,0 +1,281 @@
+
+/*CSS for index.php*/
+
+#canvas {
+	position: absolute;
+	top:	25%;
+	left:	30%;
+	height: 30px;
+}
+
+#myself {
+	position: absolute;
+	border: solid 2px #CFD3D7;
+	top: 30px;
+	left: 65%;
+}
+
+img {
+	margin: 5px;
+	border: 2px solid #2a1315;
+}
+body {
+	background-color: #713239;
+}
+h1 {
+	/*text-align: center;*/
+	line-height: 5px;
+	color: #CFD3D7;
+	font-size: 50px;
+	font-family: "Arial";
+}
+
+h2 {
+	/*text-align: center;*/
+	color: #2a1315;
+	font-size: 40px;
+	font-family: "Arial";
+}
+h3 {
+	/*text-align: center;*/
+	line-height: 5px;
+	color: #CFD3D7;
+	font-size: 33px;
+	font-family: "Arial";
+}
+
+h4 {
+	font-size: 28px;
+	font-family: "Arial";
+	margin-bottom: -5px;
+}
+
+h5 {
+	font-size: 20px;
+	font-family: "Arial";
+}
+
+p {
+	/*text-align: center;*/
+	color: #CFD3D7;
+	font-family: "Arial";
+}
+
+a {
+	font-family: "Arial";
+	color: #CFD3D7;
+}
+
+.heading {
+	border: 1px solid #2a1315;
+	background-color: #2a1315;
+	/*width: 100%;*/
+	height: 380px;
+	text-align: left;
+	padding-top: 200px;
+	padding-left: 100px;
+}
+.navBar {
+	/*width: 100%;*/
+	background-color: #3c1a1e;
+	overflow: auto;			/*what is this?*/
+}
+
+.navBar a {
+	float: left;
+	padding: 12px 20px 12px;
+	color: white;
+	text-decoration: none;		/*no line under links*/
+	font-size: 17px;
+	width: auto; /* Four links of equal widths */
+	text-align: center;
+}
+
+.navBar a:hover {
+  background-color: #4d2227;
+}
+
+.navBar a.active {
+  background-color: #5f2a30;
+}
+
+#aboutMeHeading {
+	color: #713239;
+}
+
+.aboutMe {
+	background-color: #2a1315;
+	width: 100%;
+	padding: 10px;	
+}
+
+.aboutMePara {
+	width: 50%;
+	/*border-radius: 25px;		/*rounded corners*/
+	border: 2px solid #CFD3D7;
+	padding: 10px;
+}
+
+/*FOOTER*/
+footer {
+  position: relative;
+  /*width: 100%;*/
+  text-align: center;
+  background-color: #CFD3D7;
+}
+
+footer p {
+  font-size: 12px;
+  color: #000;
+  /*font-family: Arial, sans-serif;*/
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1; /*number of columns*/
+  grid-template-rows: 1; /*number of rows*/
+  grid-gap: 5px; /*space between different grid components*/
+  font-family: "Arial", "Verdana"; /*font, obviously*/
+}
+
+.item-copy {
+  text-align: center;
+}
+
+/* social icons styling*/
+
+.footer-social ul {
+  padding: 5px;
+  margin: 0 0 0 0;
+}
+
+.footer-social li {
+  display: inline;
+  list-style: none;
+  margin-left: 5px;
+  font-size: 30px;			/*size of icons*/
+}
+
+.fa {
+  padding: 10px;			/*overall size of buttons*/
+  width: 30px;				/*width of buttons*/
+  text-align: center;		/*centers icons*/
+  text-decoration: none;
+  margin: 10px 2px;
+  border-radius: 50%;		/*rounded social media buttons*/
+}
+/* social icon hover */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/*CSS for ContactForm.html*/
+
+.myFormDiv {
+	background-color: #2a1315;
+	color: #cfd3d7;
+	width: 45%;
+}
+
+#username {
+	width: 30%;
+}
+
+#password {
+	width: 30%;
+}
+
+#first_name {
+	width: 30%;
+}
+
+#last_name {
+	width: 30%;
+}
+
+#email {
+	width: 30%;
+}
+#message {
+	width: 90%;
+	height: 100px;
+}
+
+#submitButton {
+	background-color: #305f2a;
+	padding: 5px;
+	width: 100px;
+	color: #CFD3D7;
+}
+
+#submitButton:hover {
+	background-color: #2a5f3f;
+	padding: 5px;
+	width: 100px;
+	color: #CFD3D7;
+}
+
+/*CSS RESUME*/
+
+.resumeGrid {
+		display: grid;
+		grid-template-columns: 33.3% 33.3% 33.3%;	/*number of columns*/
+		grid-template-rows: 100%;			/*number of rows*/
+		background-color: #CFD3D7;						/*background color*/
+		padding: 10px;								/*space between the border of the grid and the page*/
+		font-family: "Arial", "Verdana";			/*font, obviously*/
+		color: #000;								/*text color*/
+}
+
+.experience {
+	float: left;
+	width: 33.3%;
+	padding-top: 20px;
+	text-align: left;
+	color: #000;
+	padding-bottom: 100px;
+}
+
+.education {
+	float: left;
+	width: 33.3%;
+	padding-top: 20px;
+	text-align: left;
+	color: #000;
+}
+
+.projects {
+	width: 33.3%;
+	padding-top: 20px;
+	text-align: left;
+	color: #000;
+}
+
+.sl {
+	float: left;
+	width: 33.3%;
+	padding-top: 20px;
+	text-align: left;
+	color: #000;
+}
+
+ul {
+	font-family: "Arial", "Sans-Serif";
+	list-style: none;
+	padding-left: 0px;
+	color: #CFD3D7;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>AK Contact</title>
+</head>
+<body>
+
+<!--LINKS-->
+
+<div class="navBar">
+	<a class="clearfix" href="index.php">Home</a>
+	<a class="clearfix" href="#">Photography</a>
+	<a class="clearfix" href="graphicdesign.html">Graphic Design</a>
+	<a class="clearfix" href="#">Copywriting Examples</a>
+	<a class="clearfix" href="resume.html">Resume</a>
+	<a class="active" href="ContactForm.html">Contact</a>
+</div>
+
+<br>
+
+<!--<form action="action_page.php" method="get">
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">
+</form>
+-->
+	<div class="grid-item form">
+		<div class="myFormDiv">
+			<form action="action_page.php" method="post" name="form" id="myForm">								<!--beginning of form-->
+				<fieldset>
+					<legend><strong>Contact Form</strong></legend>											<!--name of form, appears on page-->
+						<dl>
+							<div id="firstNameDiv">
+								<dt><label for="first_name">First Name</label></dt>							<!--text-->
+								<dd><input id="first_name" type="text" name="first_name" value="" /></dd> 	<!--text area for user input-->
+								<span> </span>
+							</div>
+							
+							<br>
+										
+							<div id="lastNameDiv">					
+								<dt><label for="last_name">Last Name</label></dt>
+								<dd><input id="last_name" type="text" name="last_name" value="" /></dd>
+								<span> </span>
+							</div>	
+						
+							<br>
+							
+							<div id="emailDiv">
+								<dt><label for="email">E-mail Address</label></dt>
+								<dd><input id="email" type="text" name="email" value="" /></dd>
+								<span> </span>
+							</div>
+							
+							<br>
+							 
+							<div id="messageDiv">
+								<dt><label for="messageLabel">Contact me</label></dt>
+								<dd><textarea id="message" name="message" placeholder="Write a message..."></textarea><dd>
+								<span> </span>
+						</dl>
+				</fieldset>
+			</form>
+		</div>		
+	</div>
+	
+	<br>
+	
+	<input type="submit" id="submitButton" name="submit" value="Send">
+</body>
+</html>
